@@ -1,12 +1,10 @@
 from typing import List
 
-def longest_positive_streak(nums: list[int]) -> int:
+def longest_positive_streak(nums: List[int]) -> int:
     """
     Calculates the length of the longest run of consecutive values strictly greater than 0.
-
     Args:
         nums: A list of integers.
-
     Returns:
         The length of the longest positive streak.
     """
